@@ -20,3 +20,6 @@ target_link_libraries(generator_born ${ROOT_LIBRARIES} )
 
 # Add subdirectory for lund file conversion
 add_subdirectory(lund_conversion)
+
+# Add subdirectory for elastic generators on nuclei
+add_subdirectory(eA)
